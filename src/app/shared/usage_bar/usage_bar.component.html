@@ -1,0 +1,10 @@
+<div class="usage-bar">
+  <div class="usage-bar__core">
+    <div class="label">{{usage.label}}</div>
+    <div class="usage-bar__fill">
+      <div *ngFor="let c of usage.numberOfPipes">
+        <div class="usage-bar__fill-color"></div>
+      </div>
+    </div>
+    <div class="usage-bar__percent">{{usage.load}}</div>
+</div>

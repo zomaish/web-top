@@ -1,0 +1,42 @@
+.main-content,
+.top-navigation__container {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.top-navigation {
+  background-color: #fb8e1e;
+  height: 40px;
+  margin-bottom: 20px;
+
+}
+
+.top-navigation__links {
+  width: 200px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+
+.top-navigation__link {
+  text-decoration: none;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.app-header {
+  position: absolute;
+  left: 355px;
+  top: 5px;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}

@@ -1,0 +1,8 @@
+.mem-usage {
+  width: 500px;
+  float: left;
+}
+.mem-usage .usage-bar .usage-bar__core {
+   width: 445px;
+   height: 20px;
+}

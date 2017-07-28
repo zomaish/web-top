@@ -1,0 +1,42 @@
+
+.usage-bar__core {
+  width: 390px;
+}
+
+.label {
+  width: 30px;
+  font-size: 13px;
+}
+
+.usage-bar__fill {
+  width: 310px;
+}
+
+.label,
+.usage-bar__fill,
+.usage-bar__fill::before,
+.usage-bar__fill-color {
+  float: left;
+}
+
+.usage-bar__fill-color {
+  background-color: #88ff4d;
+  width: 2px;
+  height: 14px;
+  margin-right: 1px;
+  margin-top: 3px;
+}
+
+.usage-bar__fill::before {
+  content: "[";
+}
+
+.usage-bar__percent {
+  font-size: 13px;
+  float: right;
+}
+
+.usage-bar__percent::after {
+  content: "]";
+  font-size: 16px;
+}

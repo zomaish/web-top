@@ -1,0 +1,7 @@
+<div class="core-usage">
+  <div *ngFor='let core of cores; let i = index'>
+    <usage-bar [class.left-component]="i%2===0"
+    [class.right-component]="i%2>0"
+    [usage]="core"></usage-bar>
+  </div>
+</div>

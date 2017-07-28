@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+@import  '../node_modules/slickgrid/slick-default-theme.css';
+@import '../node_modules/slickgrid/slick.grid.css';
+
+.left-component {
+  float: left;
+}
+
+.right-component {
+  float: right;
+}
